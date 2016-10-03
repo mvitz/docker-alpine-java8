@@ -1,5 +1,7 @@
 # docker-alpine-java8
 
+![](https://images.microbadger.com/badges/version/innoq/docker-alpine-java8.svg) ![](https://images.microbadger.com/badges/image/innoq/docker-alpine-java8.svg)
+
 This repository contains a [Docker] image with an installed [Zulu OpenJDK][] 8
 on [Alpine Linux][].
 
