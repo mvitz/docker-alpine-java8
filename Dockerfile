@@ -2,9 +2,9 @@ FROM frolvlad/alpine-glibc:alpine-3.3_glibc-2.23
 
 MAINTAINER Michael Vitz <michael.vitz@innoq.com>
 
-ENV ZULU_VERSION=8.13.0.5 \
+ENV ZULU_VERSION=8.17.0.3 \
     JAVA_VERSION=8 \
-    JAVA_UPDATE=72 \
+    JAVA_UPDATE=102 \
     JAVA_HOME=/usr/lib/jvm/default-jvm
 
 COPY ./zulu*-jdk*-linux_x64.tar.gz.md5 \
