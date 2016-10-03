@@ -7,6 +7,12 @@ ENV ZULU_VERSION=8.17.0.3 \
     JAVA_UPDATE=102 \
     JAVA_HOME=/usr/lib/jvm/default-jvm
 
+LABEL org.label-schema.name="docker-alpine-java8" \
+      org.label-schema.url="https://hub.docker.com/r/innoq/docker-alpine-java8/" \
+      org.label-schema.vcs-url="https://github.com/mvitz/docker-alpine-java8" \
+      org.label-schema.vendor="innoQ Deutschland GmbH" \
+      org.label-schema.schema-version="1.0"
+
 COPY ./zulu*-jdk*-linux_x64.tar.gz.md5 \
      /tmp/
 
